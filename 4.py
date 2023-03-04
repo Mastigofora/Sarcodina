@@ -1,6 +1,6 @@
 entered_list = input("Введите список чисел, разделенных пробелом: ").split()
 print("Введенный список:", entered_list)
-
 num_list = list(map(int, entered_list))
-print("Список чисел: ", num_list)
+print("Список чисел:", num_list)
 print("Сумма списка:", max(num_list))
+print("Сумма списка:", min(num_list))
