@@ -6,3 +6,4 @@ for a in bills:
     sum = sum % a
     if c != 0:
         print(a, "=", c, end=' ')
+        
